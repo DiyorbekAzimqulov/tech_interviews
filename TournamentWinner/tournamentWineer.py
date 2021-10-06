@@ -1,5 +1,5 @@
 
-# Complexity analysis, Time complexity->O(n), Space complexity-> O(n)
+# Complexity analysis, Time complexity->O(n), Space complexity-> O(k) k-number of teams in competition
 def tournamentWinner(competitions, results):
     # Write your code here.
     team_score = {}
