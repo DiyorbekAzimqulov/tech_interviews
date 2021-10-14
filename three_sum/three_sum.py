@@ -1,3 +1,4 @@
+# S O(nlogn)
 def threeNumberSum(array, targetSum):
     # Write your code here.
     array.sort()
