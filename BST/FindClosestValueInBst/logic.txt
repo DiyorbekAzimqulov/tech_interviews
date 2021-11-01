@@ -1,0 +1,7 @@
+Property of binary search tree: 
+	1. its left node's value is always less than its parent value
+	2. its right node's value is always greater than or equal to its parent value
+I am at the beginning assigning close and close_to values to infinity because I some time later I need to compare it with other node values which are not infinite.
+I am giving additional parametr to the function to use recursion in order to search value and compare it with close value
+I update values tuple if current close value is less than previous close value
+If I find value that is equal to target value I return it because it is useless to track other values. 
