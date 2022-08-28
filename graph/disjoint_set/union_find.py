@@ -38,10 +38,9 @@ class UnionFind:
         return self.find(x) == self.find(y)
 
 
-numbers = [10, 11, 13, 17, 20, 4, 13, 50]
+numbers = [10, 11, 13]
 uf = UnionFind(numbers)
 uf.union(uf.num_map[10], uf.num_map[13])
-uf.union(uf.num_map[10], uf.num_map[17])
-uf.union(uf.num_map[20], uf.num_map[50])
-uf.union(uf.num_map[10], uf.num_map[50])
-print(uf.connected(uf.num_map[17], uf.num_map[20]))
+uf.union(uf.num_map[11], uf.num_map[13])
+
+print(uf.root)

@@ -37,9 +37,9 @@ class QuickFind:
     def connected(self, x: int, y: int) -> bool:
         return self.find(x) == self.find(y)
 
-qf = QuickFind(4)
-qf.union(0, 3)
+qf = QuickFind(3)
+qf.union(0, 2)
 qf.union(1,2)
-qf.union(2, 3)
+
 print(qf.roots)
-print(qf.connected(1, 0))
+# print(qf.connected(1, 0))
