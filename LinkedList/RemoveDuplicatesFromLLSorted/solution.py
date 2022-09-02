@@ -5,6 +5,11 @@ class ListNode:
         self.val = val
         self.next = next
 class Solution:
+    
+    """
+    https://jamboard.google.com/d/11XPaZMu7RVaRrXNlKLKLsZA6A7EwDzCJeB5drzPO2nY/edit?usp=sharing
+    """
+
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if not head:
             return None
