@@ -7,6 +7,8 @@ leaving only distinct numbers from the original list. Return the linked list sor
 
 Solution Conceptual overview:
 
+https://jamboard.google.com/d/11XPaZMu7RVaRrXNlKLKLsZA6A7EwDzCJeB5drzPO2nY/edit?usp=sharing
+
 again we use two pointer technique here. one pointer points to only unique numbers which
 does not have any duplicates. And one for iteration. In order to identify whether current 
 iteration node to be unique we need to be able to access its previous node, that is why we
