@@ -1,3 +1,6 @@
+"""
+https://binarysearch.com/problems/Minimum-Bracket-Addition
+"""
 class Solution:
     def solve(self, s):
         """
