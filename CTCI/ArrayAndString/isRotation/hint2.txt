@@ -1,0 +1,3 @@
+We are essentially asking if there's a way of splitting the first string into two parts, 
+x and y, such that the first string is xy and the second string is yx. For example, x = wat
+and y = erbottle. The first string is xy = waterbottle. The second is yx = erbottlewat.

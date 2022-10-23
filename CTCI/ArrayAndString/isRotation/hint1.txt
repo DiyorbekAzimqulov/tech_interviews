@@ -1,0 +1,3 @@
+if a string is a rotation of another, then it is a rotation at a particular point. 
+For example, a rotation of waterbottle at character 3 means cutting watterbottle at character 3
+and putting the right half (erbottle) before the left half (wat). 

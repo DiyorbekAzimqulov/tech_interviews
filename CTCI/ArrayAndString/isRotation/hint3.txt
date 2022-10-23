@@ -1,0 +1,2 @@
+Think about the earlier hint. Then think about what happens when you concatenate erbottlewat to itself.
+You get erbottlewaterbottlewat.
