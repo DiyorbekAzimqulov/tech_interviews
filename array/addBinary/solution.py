@@ -1,6 +1,7 @@
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         """
+        https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1160/
         1 solution
         convert binary to decimal for both string
         add them
