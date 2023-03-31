@@ -1,0 +1,9 @@
+Given a list of unique integers nums sorted in ascending order, 
+return the minimum i such that nums[i] == i. If there's no solution, return -1.
+
+This should be done in 
+O(log(n)) time.
+
+Constraints
+
+n ≤ 100,000 where n is the length of nums
